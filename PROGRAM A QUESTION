@@ -1,0 +1,258 @@
+create_password=input("Create password: ")
+
+while True:
+    user_password = input("Enter password: ")
+    if user_password != create_password:
+        print("Incorrect password")
+    else:
+        print("Password correct. Access granted.")
+        break
+
+while True:
+    ques=input('1. The _____ statement is used inside the loop to exit out of the loop.\nA. Pass\nB. Continue \nC. break \nAnswer: ').upper()
+    if ques=='A':
+        print('Incorrect\n ')
+        continue
+    elif ques=='B':
+        print('Incorrect\n ')
+        continue
+    elif ques=='C':
+        print('Correct\n')
+        break
+    else:
+        print('Invalid Choice\n')
+        continue
+   
+while True:
+    ques=input('2. The ____ statement is considered a no-operation statement.?\nA. Pass\nB. Continue \nC. break \nAnswer: ').upper()
+    if ques=='A':
+        print('Correct\n ')
+        break
+    elif ques=='B':
+        print('Incorrect\n ')
+        continue
+    elif ques=='C':
+        print('Incorrect\n')
+        break
+    else:
+        print('Invalid Choice\n')
+        continue
+
+while True:
+    ques=input('3.  The _____ statement allows you to by pass the current iteration of the loop.\nA. Pass\nB. Continue \nC. break \nAnswer: ').upper()
+    if ques=='A':
+        print('Incorrect\n ')
+        continue
+    elif ques=='B':
+        print('Correct\n ')
+        break
+    elif ques=='C':
+        print('Incorrect\n')
+        continue
+    else:
+        print('Invalid Choice\n')
+        continue
+
+while True:
+    ques=input('4. Python has four logical operators.?\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Incorrect\n ')
+        continue
+    elif ques=='B':
+        print('Correct\n')
+        break
+    else:
+        print('Invalid Choice\n')
+        continue
+   
+while True:
+    ques=input('5. Python has two logical operators.?\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Incorrect\n ')
+        continue
+    elif ques=='B':
+        print('Correct\n')
+        break
+    else:
+        print('Invalid Choice\n')
+        continue
+while True:
+    ques=input('6. Python has three logical operators.?\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Correct\n ')
+        break
+    elif ques=='B':
+        print('Incorrect\n')
+        continue
+    else:
+        print('Invalid Choice\n')
+        continue
+while True:
+    ques=input('7. Python has one logical operators.?\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Incorrect\n ')
+        continue
+    elif ques=='B':
+        print('Correct\n')
+        break
+    else:
+        print('Invalid Choice\n')
+        continue
+while True:
+    ques=input('8. Python do not have eight logical operators.?\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Correct\n ')
+        break
+    elif ques=='B':
+        print('Incorrect\n')
+        continue
+    else:
+        print('Invalid Choice\n')
+        continue
+   
+while True:
+    ques=input('Parameter is used to round numbers \nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Incorrect\n ')
+        continue
+    elif ques=='B':
+        print('Correct\n')
+        break
+    else:
+        print('Invalid Choice\n')
+        continue
+   
+while True:
+    ques=input('Number is a sequence of characters.\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Incorrect\n ')
+        continue
+    elif ques=='B':
+        print('Correct\n')
+        break
+    else:
+        print('Invalid Choice\n')
+        continue
+   
+while True:
+    ques=input('11. Zip returns a sorted list of specified iterable object\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Incorrect\n ')
+        continue
+    elif ques=='B':
+        print('Correct\n')
+        break
+    else:
+        print('Invalid Choice\n')
+        continue
+   
+while True:
+    ques=input('12. In Python, the loop statement is considered a no-operation statement?\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Incorrect\n ')
+        continue
+    elif ques=='B':
+        print('Correct\n')
+        break
+    else:
+        print('Invalid Choice\n')
+        continue
+   
+while True:
+    ques=input('13. A function is a reusable piece of code that executes a single, related action is known as Python Built-in Function.\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Correct\n ')
+        break
+    elif ques=='B':
+        print('Incorrect\n')
+        continue
+    else:
+        print('Invalid Choice\n')
+        continue
+   
+while True:
+    ques=input('14. A statement increases execution time\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Incorrect\n ')
+        continue
+    elif ques=='B':
+        print('Correct\n')
+        break
+    else:
+        print('Invalid Choice\n')
+        continue
+   
+while True:
+    ques=input('15. The loop ignores the rest of the loop body statements for the current iteration and returns program execution to the very first statement in the loop body.\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Incorrect\n ')
+        continue
+    elif ques=='B':
+        print('Correct\n')
+        break
+    else:
+        print('Invalid Choice\n')
+        continue
+   
+while True:
+    ques=input('16. Nested loop a python programming language allows using one loop inside another loop\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Correct\n ')
+        break
+    elif ques=='B':
+        print('Incorrect\n')
+        continue
+    else:
+        print('Invalid Choice\n')
+        continue
+   
+   
+while True:
+    ques=input('17.  Input accepts user inputs without evaluating its value..\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Correct\n ')
+        break
+    elif ques=='B':
+        print('Incorrect\n')
+        continue
+    else:
+        print('Invalid Choice\n')
+        continue
+   
+while True:
+    ques=input('18. Python has five logical operators.?\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Incorrect\n ')
+        continue
+    elif ques=='B':
+        print('Correct\n')
+        break
+    else:
+        print('Invalid Choice\n')
+        continue
+   
+while True:
+    ques=input('19.  Input do not accepts user inputs without evaluating its value.\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Incorrect\n ')
+        continue
+    elif ques=='B':
+        print('Correct\n')
+        break
+    else:
+        print('Invalid Choice\n')
+        continue
+   
+while True:
+    ques=input('20.  Input do not accepts user inputs while evaluating its value.\nA. True\nB. False \nAnswer: ').upper()
+    if ques=='A':
+        print('Incorrect\n ')
+        continue
+    elif ques=='B':
+        print('Correct\n')
+        break
+    else:
+        print('Invalid Choice\n')
+        continue
+   
+print('You finished the test!')
